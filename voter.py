@@ -32,7 +32,6 @@ def main():
         br.form[EMAIL_ID] = email
         print("%s (%d)"%(email,i+1))
         result = br.submit()
-        time.sleep (5)
 
 if __name__=="__main__":
     main()
